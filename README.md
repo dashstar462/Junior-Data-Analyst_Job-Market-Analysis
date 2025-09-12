@@ -1,1 +1,1 @@
-# Junior-Data-Analyst_Job-Market-Research
+# Junior-Data-Analyst_Job-Market-Analysis
