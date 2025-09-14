@@ -6,10 +6,13 @@
 ## Introduction
 
 As a Junior Data Analyst currently looking for a job, the idea was simple: analyze the key skills Ukrainian companies ask for during the hiring process. I tried to find any data before building this project, but the search did not give anything.
-That is when I decided to build it. Overall, the structure looks like this
+That is when I decided to build it. Overall, the structure looks like this:
 
+1. Choose a job aggregator from which the information will be scraped
+2. Scrape information about jobs for desired position
+3. Build a database out of scraped information
+4. Build dashboards to explore the data
 
-The website that was chosen to scrape the data from is [djinni](https://djinni.co/jobs/), as it is one of the bigger job aggregators out there
 
 ## Choosing the website
 
@@ -17,19 +20,19 @@ There are several rather large IT job aggregators in Ukraine. However, my choice
 
 ## Choosing relevant information
 
-Now that we have determined the website, let's explore it a bit to understand which information will be relevant for us to retrieve.
+Now that we have chosen the website, let's explore it a bit to understand which information will be relevant for us to retrieve.
 
-[link to image]
+![djinni1](images/djinni1.png)
 
 So the main page looks something like this, we can see different filters like category, salary, etc on the right. There, let's choose the **Data Analyst** as category and set the work experience to **No experience** and **1 year**. I'm choosing 1 year category even for junior data analysts as frequently the companies who set working experience to one year will still consider candidates with less than that.
 
 Great, now we have the link to all the jobs relevant to our position. Let's open one of the jobs to see which information we will be retrieving from it.
 
-[link to image 1]
+![djinni2](images/djinni2.jpg)
 
-As you can see, there is a box which contains a lot of useful information about the job, mainly: the job arrengement, domain, type of employment. If we scroll a bit to the bottom there is usually another box with required languages and a section with tags that represent hard skills needed for this job.
+As you can see, there is a box which contains a lot of useful information about the job, mainly: the job arrangement, domain, type of employment. If we scroll a bit to the bottom there is usually another box with required languages and a section with tags that represent hard skills needed for this job.
 
-[link to image 2]
+![djinni3](images/djinni3.jpg)
 
 With that in mind, we are ready to scrape the website
 
@@ -39,7 +42,7 @@ To scrape the information for the desired position it is sufficient to create a 
 
 ## Creating dashboards
 
-To create the dashboards you can probably use the template I create or simply upload the CSV file into PowerBI or Tableau to create what you want.
+To create the dashboards you can probably use the template I created or simply upload the CSV file into PowerBI or Tableau to create what you want.
 
 ## Limitations and possible future improvements
 
