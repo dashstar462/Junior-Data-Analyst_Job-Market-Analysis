@@ -1,6 +1,6 @@
 # Junior Data Analyst: Job-Market-Analysis
 
-## A project aimed to analyze the Ukrainian job market for the requirements for Junior Data Analyst position
+## Project aimed to analyze the Ukrainian job market for the requirements for Junior Data Analyst position
 
 
 ## Introduction
